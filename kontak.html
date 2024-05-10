@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Kontak</title>
+  </head>
+  <body>
+    <h2>hubungi kami</h2>
+    <p>
+      Silakan isi formulir di bawah ini untuk mengirimkan email kepada kami:
+    </p>
+
+    <form action="proses_form.php" method="POST">
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="pesan">Pesan:</label><br />
+      <textarea id="pesan" name="pesan" rows="4" required></textarea
+      ><br /><br />
+
+      <input type="submit" value="Kirim" />
+    </form>
+  </body>
+</html>
